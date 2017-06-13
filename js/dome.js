@@ -67,7 +67,7 @@ $(document).scroll(function(){
 })
 $('#top').click(function(event){
 	event.preventDefault();
-	$('body').animate({'scrollTop':0},1000)
+	$('html,body').animate({'scrollTop':0},1000)
 	$('#nav1').css('display','block')
 	$('.banner').css('margin-top',0)
 })
